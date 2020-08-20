@@ -1,4 +1,3 @@
-=====
 Django Easy Paginator for API Response
 =====
 
@@ -9,15 +8,17 @@ Detailed documentation is in the "docs" directory.
 Quick start
 -----------
 
-1. Add "paginate_api" to your INSTALLED_APPS setting like this::
+1. Add "api_paginator" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
-        'paginate_api',
+        'api_paginator',
     ]
 
-2. Import paginate from paginate_api.paginate
+2. Import paginate from api_paginator.api_paginator in views.py as::
 
-3. Use paginate as 
+		from api_paginator.api_paginator import paginate
+
+3. Use paginate as ::
             
             result = paginate(data_as_array, page_number, per_page_count_integer_value)

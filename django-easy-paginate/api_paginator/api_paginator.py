@@ -1,3 +1,5 @@
+import math
+
 def paginate(data, page, per_page=20):
     per_page_data_length = per_page
     data_length = len(data)

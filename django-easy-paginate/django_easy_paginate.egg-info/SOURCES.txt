@@ -1,6 +1,6 @@
 LICENSE
 MANIFEST.in
-README.rst
+README.md
 setup.py
 api_paginator/__init__.py
 api_paginator/admin.py
